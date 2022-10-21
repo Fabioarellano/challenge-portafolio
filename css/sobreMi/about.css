@@ -1,0 +1,23 @@
+.about{
+    background:#eaf2fa;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    padding:1.24rem;
+    gap:10px;
+    margin-top: 1rem;
+
+    flex: none;
+    order:  2;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.about__paragraph{
+    font-size: 14px;
+    color: #464646;
+}
+
+.about__firma{
+    opacity: 0.3;
+}
