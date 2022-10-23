@@ -1,6 +1,7 @@
 .title{
     /* display:flex;
     align-items: flex-start; */
+    
 }
 .title__div{
     align-items: flex-start;
@@ -68,7 +69,8 @@ img.title__profile{
     line-height: 16px;
     height:16px;
     width: 328px;
-    
+    padding-bottom:1rem;
+    /* margin-bottom: 1rem; */
     flex: none;
     order:  1;
     align-self: stretch;
@@ -86,7 +88,6 @@ img.title__profile{
     padding: 0;
     width: 318px;  
     font-weight: bold;
-    opacity: 0.9;
     
     flex: none;
     order: 3;
