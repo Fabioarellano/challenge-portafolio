@@ -9,15 +9,26 @@ coloque nas sessões indicadas*/
     /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
    --cor-de-fundo: #F5F5F5;
    --cor-de-link: #000;
+   --fuente-raleway: 'Raleway', sans-serif;
+
+   --background-color-fondo: #F5F5F5;
+   --background-color-gris-oscuro: #E5E5E5;
+   --background-color-azul: #EAF2FD;
+   --background-color-blanco: #ffffff;
+
+   --color-fuente: #464646;
+
 }
 
 body {
     box-sizing: border-box;
-    background-color: var(--cor-de-fundo) ;
-    font-family: 'Raleway';
-    margin: 0;
+    background-color: var(--background-color-fondo) ;
+    font-family: var(--fuente-raleway);
+    margin: 0 auto;
     padding: 0;
     line-height: 1;
+    /*width: 1440px;*/
+    color: var(--color-fuente);
 }
 ol, ul,li {
     list-style: none;
@@ -49,7 +60,7 @@ section.menu{
 /*Sección Title*/
 
 section.title{
-
+    
 }
 
 /*Sección About*/
@@ -79,7 +90,7 @@ section.experience{
 /*Contacto*/
 
 section.formcontato{
-
+ 
 }
 
 /*footeer*/

@@ -1,19 +1,24 @@
 .xp{
     background: #e5e5e5;
     
-    width:316px;
-    height: 600px;
+    /* width:316px; */
+   
     padding: 2rem; 
     font-family: Raleway;;
 }
 
 .experience{
-    padding: 2rem; 
+    /* padding: 2rem; 
     /* background: #eaf2fd; */
     
-    width:316px;
-    height: 600px;
-    padding: 2rem; 
+    /* width:316px; */
+    
+    padding: 2rem;  */
+    background: var(--background-color-gris-claro);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
 }
 
 .experience__section__title{

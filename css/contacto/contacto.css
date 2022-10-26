@@ -1,8 +1,17 @@
 .formcontato{
     background:#eaf2fd;
+    /* width:316px;
+    height: 610px; */
+    padding: 2rem; 
+    font-family: Raleway;
+
+    display:flex;
+    flex-wrap: wrap;
     
 }
-
+.formcontato__img{
+    display: none;
+}
 .formcontato--esquerda{
     /* display:none; */
 }
