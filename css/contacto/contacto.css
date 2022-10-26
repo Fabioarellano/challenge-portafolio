@@ -1,17 +1,60 @@
 .formcontato{
-    background:#eaf2fd;
+    /* background:#eaf2fd;
     /* width:316px;
     height: 610px; */
-    padding: 2rem; 
+    /* padding: 2rem; 
     font-family: Raleway;
 
     display:flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */ 
+
+    background: var(--background-color-azul);
+    padding: 2rem;
     
+}
+
+.formcontato__title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding-bottom: 8px;
 }
 .formcontato__img{
     display: none;
 }
-.formcontato--esquerda{
-    /* display:none; */
+
+.formcontato__subtext{
+    font-weight:500;
+    font-size: 1rem;
+}
+
+.formcontato__input {
+    background: var(--background-color-blanco);
+    width: 95%;
+    height: 56px;
+    padding-left: 12px;
+    margin-top: 2rem;
+    border: none;
+    box-shadow: 0 1px 0 0 var(--color-sombra);
+    outline: none;
+}
+
+.formcontato__textarea {
+    font-family: var(--fuente-raleway);
+    height: 133px;
+    padding: 16px 0 0 12px;
+    margin-top: 2rem;
+    width: 95%;
+    border: none;
+    box-shadow: 0 1px 0 0 var(--color-sombra);
+    outline: none;
+    resize: none;
+}
+
+.formcontato__botao {
+    margin-top: 2rem;
+    color: var( --background-color-blanco);
+    background-color: #2A7AE4;
+    border-color: #2A7AE4;
+    width: 133px;
+    height:40px
 }
