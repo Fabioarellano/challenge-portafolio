@@ -7,9 +7,10 @@
 
 img.title__profile{
     height: 6.125rem;   
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
     /* margin-left: 1rem; */
     width: 6.125rem;
+    border-radius: 3rem;
     
 }
 
@@ -64,4 +65,22 @@ img.title__profile{
     flex: none;
     order: 2;
     flex-grow: 0;
+}
+@media (min-width: 768px) {
+    .title__div{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+    img.title__profile {
+        width: 146px;
+        height: 146px;
+        border-radius: 5rem;
+    }
+
+    .title__subsection, .title__network__item{
+        font-size: 1rem;
+        padding-right: 32px;
+        /*margin-right: 32px*/
+    }
 }

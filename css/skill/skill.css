@@ -1,8 +1,8 @@
 .skills{
     background: #e5e5e5;
     padding:1rem;
-    width:348px;
-    height: 500px;
+    /* width:348px;
+    height: 620px; */
 }
 
 .skills__title{
@@ -42,4 +42,20 @@
     padding-top: 8px;
     font-weight: bold;
     color:#464646;
+}
+
+@media screen and (min-width: 768px){
+    .skills__box {
+        width: 224px;
+        margin-top: 2rem;
+    }
+
+    .skills__line{
+      
+         gap:0 1rem;
+    }
+
+    .skills__title{
+      padding-bottom: 0rem;
+    }
 }
