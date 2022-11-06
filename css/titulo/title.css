@@ -66,6 +66,9 @@ img.title__profile{
     order: 2;
     flex-grow: 0;
 }
+
+
+
 @media (min-width: 768px) {
     .title__div{
         display: flex;
@@ -83,4 +86,25 @@ img.title__profile{
         padding-right: 32px;
         /*margin-right: 32px*/
     }
+
+   
 }
+
+@media screen and (min-width: 1024px){
+    .title__bio {
+        font-size: 52px;
+    }
+    }
+    @media screen and (min-width: 1024px){
+    img.title__profile {
+        width: 368px;
+        height: 368px;
+        border-radius:50%;
+    }
+
+    
+    .title__network__item{
+        padding:0 1rem 0 0;
+    }
+    }
+  

@@ -95,3 +95,44 @@
     border-radius: 1.2rem;
     font-style: media;
 }
+
+
+@media screen and (min-width: 1024px){
+    
+    .experience__img{
+        width: 70%;
+        margin-right: 16px;
+    }
+    .experience__title{
+        font-size: 1.375rem;
+    }
+
+    .experience__text{
+        font-size: 1rem;
+    }
+    .experiencie__box:nth-child(2n) {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+    }
+    .experiencie__box:nth-child(odd) {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .experiencia__botao--repo{
+        margin-top: 1.4rem;
+    }
+
+    .experience__botao--demo{
+        
+        margin-top: 0.2rem;
+        margin-left: 0.8rem;
+    }
+
+
+   
+}

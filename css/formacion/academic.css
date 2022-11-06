@@ -3,9 +3,13 @@
    
     /* width:316px;
     height: 600px; */
-    padding: 2rem; 
     /* display:flex;
     flex-direction: column; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
 }
 
 .academic__title{
@@ -91,4 +95,23 @@ academic__courses__box{
     .academic__courses__box:nth-child(2){
         margin: 0 23px;
     }
+
+   
+}
+
+@media screen and (min-width: 1024px) {
+    section.menu, section.title, section.about, section.skills, section.hobbies, section.academic, section.experience, section.formcontato {
+        padding: 32px 152px;
+    }
+    
+    .academic__courses__item__img img {
+        width: 192px;
+        height: 130px;
+        padding: 78px 88px;
+    }
+
+    .academic__titulo {
+        font-size: 1.4rem;
+    }
+
 }

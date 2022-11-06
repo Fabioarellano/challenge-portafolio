@@ -58,3 +58,18 @@
     width: 133px;
     height:40px
 }
+
+
+@media screen and (min-width: 1024px){
+    .formcontato__contacto {
+        display: flex;
+        align-items: center;
+    }
+
+    .formcontato__img {
+        display: block;
+        margin-right: 1rem;
+        width: 464px;
+        height: 594px;
+    }
+}
